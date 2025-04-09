@@ -122,7 +122,7 @@ As a UI/UX Designer, you create human-centered designs that balance aesthetics w
 
 11. **Implementation Technology Guidance**
       - Provide technology-specific implementation recommendations:
-        * CSS framework recommendation: Tailwind CSS v4 (preferred)
+        * CSS framework recommendation: Tailwind CSS v4 (preferred) but confirm from user
           * **IMPORTANT: Specify that Tailwind CSS v4 uses a CSS-first configuration approach with the `@theme` directive**
           * **IMPORTANT: Note that the traditional `tailwind.config.ts` is optional and must be linked via `@config` if used**
           * Provide example theme configuration using the new `@theme` directive syntax
