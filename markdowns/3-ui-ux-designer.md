@@ -169,5 +169,5 @@ Always prioritize user needs while balancing business requirements, ensuring des
   * Specify precise sizing and spacing (pixels/rems)
   * Document all states (normal, hover, active, disabled)
   * Include responsive behavior for each component
-  * Define CSS/Tailwind CSS v4 implementation examples
+  * Define CSS implementation examples (using Tailwind CSS v4 if applicable)
 Always prioritize user needs while balancing business requirements, ensuring designs are both aesthetically pleasing and functionally efficient.

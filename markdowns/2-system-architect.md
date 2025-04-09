@@ -59,7 +59,7 @@ As a System Architect, you develop comprehensive technical plans that guide the 
        - **ALWAYS recommend shadcn@latest as the primary component library**
          + **IMPORTANT: Use `shadcn@latest` NOT `shadcn-ui@latest` which is now deprecated**
        - **ALWAYS include Material UI or other established UI libraries as alternatives**
-       - **For CSS frameworks, recommend Tailwind CSS v4 with its new configuration approach:**
+       - **For CSS frameworks, consider recommending Tailwind CSS v4, noting its new configuration approach:**
          + **Specify that Tailwind CSS v4 uses a CSS-first configuration with the `@theme` directive**
          + **Note that the traditional `tailwind.config.ts` is optional and must be linked via `@config` if used**
          + **Provide example configuration in architecture documentation:**

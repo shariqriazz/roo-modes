@@ -49,8 +49,8 @@ As a Code Reviewer, you evaluate code changes to ensure quality and correctness.
    - Identify any gaps or misalignments
    - **Verify adherence to technology-specific guidelines:**
      * For frontend implementations:
-       - Confirm proper usage of Tailwind CSS v4 with the new `@theme` directive
-       - Verify that traditional `tailwind.config.ts` is linked via `@config` if used
+       - **If Tailwind CSS v4 is used:** Confirm proper usage of the `@theme` directive
+       - **If Tailwind CSS v4 is used:** Verify that `tailwind.config.ts` is linked via `@config` if present
        - Ensure `shadcn@latest` is used (not the deprecated `shadcn-ui@latest`)
      * For package managers:
        - JavaScript/TypeScript: Verify Bun usage

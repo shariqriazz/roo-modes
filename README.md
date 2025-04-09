@@ -29,8 +29,8 @@ The Roo-Code specialized modes work together in a coordinated workflow:
 2. **Task Breakdown**: The Orchestrator analyzes requirements and breaks them into appropriately sized subtasks
 3. **Architecture & Design**: System Architect and UI/UX Designer create the technical and design foundations
 4. **Implementation**: Frontend, Backend, and Database specialists implement their respective components in smaller subtasks
-5. **Quality Assurance**: Code Reviewer evaluates each completed subtask for quality and standards adherence
-6. **Refinement**: Specialists address any issues identified in code reviews
+5. **Mandatory Code Review**: **Crucially, after *each* implementation subtask is completed by a specialist**, the Code Reviewer *must* evaluate the changes for quality, standards adherence, and correctness. This is a non-negotiable step.
+6. **Refinement**: If issues are identified during the review, the original specialist addresses them. The Code Reviewer verifies the fixes before the workflow proceeds.
 7. **Optimization**: Performance Optimizer, Code Refactorer, and other specialists enhance the implementation
 8. **Integration**: The Orchestrator ensures all components work together properly
 9. **Deployment**: DevOps Engineer handles deployment and infrastructure needs
@@ -102,6 +102,18 @@ All Roo-Code modes follow a consistent approach to file operations within VSCode
    - `insert_content` for adding new sections
    - `write_to_file` only as last resort for editing
 2. For creating new files, always use `write_to_file`
+
+## Package Manager Standards
+
+To ensure consistency and leverage optimized tooling across the project, all specialized modes adhere to the following package manager standards:
+
+- **JavaScript/TypeScript**: **Bun** must be used exclusively for package management, script execution, and runtime.
+- **Python**: **Poetry** must be used exclusively for dependency management and virtual environments.
+- **Go**: **Go modules** must be used exclusively for dependency management.
+- **Rust**: **Cargo** must be used exclusively for builds and dependency management.
+
+These standards are strictly enforced in development workflows, CI/CD pipelines, and any code modifications made by the specialist modes.
+
 
 ## Extending the Roo-Code Modes
 
