@@ -144,16 +144,16 @@ These roles need a balance between creativity and adherence to standards:
 - **Git Manager (0.5)**: Needs some creativity for workflow design while adhering to version control best practices.
 - **Code Refactorer (0.5)**: Requires creativity to identify better code structures while maintaining existing functionality.
 
-### Temperature 0 (Strict Adherence)
+### Temperature 0.1 (Strict Adherence)
 These roles require strict adherence to specifications, standards, and existing patterns:
 
-- **Frontend Developer (0)**: Should strictly implement designs according to specifications with minimal creative deviation.
-- **Backend Developer (0)**: Needs to follow API contracts and business logic specifications precisely.
-- **Code Debugger (0)**: Must methodically follow debugging protocols to identify and fix issues without creative interpretation.
-- **Code Reviewer (0)**: Should strictly evaluate code against established standards and requirements without creative interpretation.
+- **Frontend Developer (0.1)**: Should strictly implement designs according to specifications with minimal creative deviation.
+- **Backend Developer (0.1)**: Needs to follow API contracts and business logic specifications precisely.
+- **Code Debugger (0.1)**: Must methodically follow debugging protocols to identify and fix issues without creative interpretation.
+- **Code Reviewer (0.1)**: Should strictly evaluate code against established standards and requirements without creative interpretation.
 
 ### Rationale
 
 - **High Temperature (1.0)** works best for roles that define "what" should be built and "why," where exploring multiple approaches leads to better outcomes.
 - **Medium Temperature (0.5)** is ideal for roles that balance established practices with situation-specific solutions.
-- **Low Temperature (0)** is best for roles focused on implementing predefined specifications where consistency and predictability are paramount.
+- **Low Temperature (0.1)** is best for roles focused on implementing predefined specifications where consistency and predictability are paramount.
